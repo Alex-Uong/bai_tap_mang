@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BÀI TẬP MẢNG</title>
+  </head>
+  <body style="line-height: 1.5">
+    <input
+      style="width: 15rem"
+      type="number"
+      step="1"
+      id="number"
+      placeholder="Nhập số muốn thêm vào mảng"
+      pattern="\d*"
+    />
+    <button onclick="add()">Thêm</button>
+    <div id="array"></div>
+
+    <button onclick="sum()">1. Tính tổng các số dương trong mảng</button>
+    <div id="sum"></div>
+
+    <button onclick="count()">2. Có bao nhiêu số dương trong mảng</button>
+    <div id="count"></div>
+
+    <button onclick="min()">3. Tìm số nhỏ nhất trong mảng</button>
+    <div id="min"></div>
+
+    <button onclick="minPositive()">4. Tìm số dương nhỏ nhất trong mảng</button>
+    <div id="minPositive"></div>
+
+    <button onclick="lastEven()">5. Tìm số chẵn cuối cùng trong mảng</button>
+    <div id="lastEven"></div>
+
+    <p>6. Đổi chỗ 2 số trong mảng</p>
+    <input type="number" id="index1" placeholder="Nhập vị trí thứ nhất" />
+    <input type="number" id="index2" placeholder="Nhập vị trí thứ hai" />
+    <button onclick="swap()">Đổi chỗ</button>
+    <div id="swap"></div>
+
+    <button onclick="sortArray()">7. Sắp xếp tăng dần</button>
+    <div id="sort"></div>
+
+    <button onclick="firstPrime()">8. Tìm số nguyên tố đầu tiên</button>
+    <div id="firstPrime"></div>
+
+    <p>9. Đếm số nguyên trong mảng số thực</p>
+    <input
+      type="number"
+      id="number2"
+      placeholder="Nhập số thực"
+      style="width: 15rem"
+    />
+    <button onclick="addNumber()">Thêm vào mảng</button>
+    <div id="array2"></div>
+    <button onclick="countInteger()">Đếm số nguyên trong mảng</button>
+    <div id="countInteger"></div>
+
+    <button onclick="compare()">10. So sánh số lượng số âm và số dương</button>
+    <div id="compare"></div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
